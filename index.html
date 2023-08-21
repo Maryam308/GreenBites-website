@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="public/logo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Green Bites</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <h4 data-aos="fade-down">Green Bites</h4>
+          <div class="header__logo-overlay"></div>
+        </div>
+        <ul class="header__menu" data-aos="fade-down">
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#food">Food</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><img src="pictures/search.svg" alt="search" /></li>
+        </ul>
+
+        <ul class="header__menu-mobile" data-aos="fade-down">
+          <li>
+            <img src="pictures/menu.svg" alt="menu" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--Hero-->
+    <section class="hero">
+      <div class="hero-img">
+        <img
+          src="./pictures/header1.png"
+          alt="healthy-bowl"
+          data-aos="fade-up"
+        />
+        <h2 data-aos="fade-up">
+          ❜ <br />
+          ❜<br />
+        </h2>
+        <div class="hero-img__overlay"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-content-info" data-aos="fade-left">
+          <h1>Good food is good mood</h1>
+          <p>
+            Feel the taste of the most delicious healthy food in Bahrain that is
+            made by our talented chefs and supervised by professional dietitians
+          </p>
+
+          <div class="hero-content__buttons">
+            <button class="order-button">Order Now</button>
+            <button class="play-button">
+              <img src="./pictures/play-circle.svg" alt="play-circle" />
+              How to Order
+            </button>
+          </div>
+        </div>
+        <div class="hero-content__testimonial" data-aos="fade-up">
+          <div class="hero-content__customer flex-center">
+            <h4><span>15k+</span></h4>
+            <p>Happy Customers</p>
+          </div>
+          <div class="hero-content__review">
+            <img src="./pictures/user.png" alt="user" />
+            <p>
+              This is absolutely the BEST healthy food restaurant I've EVER
+              tried!!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--About-->
+    <section class="about" id="about">
+      <div class="about__img">
+        <div class="about__img-food11">
+          <img
+            src="./pictures/food11.png"
+            alt="food11"
+            data-aos="fade-right"
+            data-aos="fade-right"
+          />
+        </div>
+        <button class="about__button">
+          Learn More
+          <img
+            src="./pictures/arrow-up-right.svg"
+            alt="learn more"
+            data-aos="fade-right"
+          />
+        </button>
+        <div class="about__img-food2">
+          <img src="./pictures/food2.png" alt="food2" data-aos="fade-right" />
+        </div>
+      </div>
+
+      <div class="about__content" data-aos="fade-left">
+        <p class="subtitle">About Us</p>
+        <h3 class="title">
+          Our mission is to serve people the most delicious healthy food they've
+          ever had
+        </h3>
+        <p class="description">
+          At Green Bites, we believe the best dishes are the ones that are full
+          with healthy and fresh ingredients. At Green Bites, we provide food
+          quality & Service
+        </p>
+      </div>
+    </section>
+    <!--Popular-->
+    <section class="popular" id="menu">
+      <h2 class="popular__title" data-aos="flip-up">Popular Food</h2>
+      <div class="popular__filters hide-scrollbar" data-aos="fade-up">
+        <button class="popular__filter-btn active">All</button>
+        <button class="popular__filter-btn">
+          <img src="./pictures/salad.png" alt="salad" />
+          Salads
+        </button>
+        <button class="popular__filter-btn">
+          <img src="./pictures/sandwich.png" alt="sandwich" />
+          Sandwiches
+        </button>
+        <button class="popular__filter-btn">
+          <img src="./pictures/pizza.png" alt="pizza" />
+          Pizza
+        </button>
+        <button class="popular__filter-btn">
+          <img src="./pictures/keto.png" alt="keto" />
+          Keto
+        </button>
+        <button class="popular__filter-btn">
+          <img src="./pictures/dessert.png" alt="dessert" />
+          Dessert
+        </button>
+        <button class="popular__filter-btn">Others</button>
+      </div>
+
+      <div data-aos="fade-up" class="popular__catalogue">
+        <!--ITEM1-->
+        <article class="popular__card">
+          <img class="popular__card-img" src="./pictures/egg.png" alt="egg" />
+          <h4 class="popular__card-title">Breakfast Sandwich</h4>
+          <div class="popular__card-details flex-between">
+            <div class="popular__card-rating">
+              <img src="./pictures/star.svg" alt="star" />
+              <p>4.9</p>
+            </div>
+            <p class="popular__card-price">1.2BD</p>
+          </div>
+        </article>
+
+        <!--ITEM2-->
+        <article class="popular__card active-card">
+          <img
+            class="popular__card-img"
+            src="./pictures/protein.png"
+            alt="protein"
+          />
+          <h4 class="popular__card-title">Strawberry Protein Shake</h4>
+          <div class="popular__card-details flex-between">
+            <div class="popular__card-rating">
+              <img src="./pictures/star.svg" alt="star" />
+              <p>5.0</p>
+            </div>
+            <p class="popular__card-price">2BD</p>
+          </div>
+        </article>
+        <!--ITEM3-->
+        <article class="popular__card">
+          <img
+            class="popular__card-img"
+            src="./pictures/signature1.png"
+            alt="signature"
+          />
+          <h4 class="popular__card-title">Signature LunchBox</h4>
+          <div class="popular__card-details flex-between">
+            <div class="popular__card-rating">
+              <img src="./pictures/star.svg" alt="star" />
+              <p>4.8</p>
+            </div>
+            <p class="popular__card-price">2.3BD</p>
+          </div>
+        </article>
+      </div>
+
+      <button class="popular__button">
+        Explore Food
+        <img src="./pictures/arrow-right.svg" alt="arrow" />
+      </button>
+    </section>
+
+    <!--Trending-->
+    <section class="trending" id="food">
+      <section class="trending-food">
+        <div class="trending__content" data-aos="fade-right">
+          <p class="subtitle">What's Trending</p>
+          <h3 class="title">Low Carb Meals</h3>
+          <p class="description">
+            Feel the taste of the most tasty low carb dishes in the region
+          </p>
+
+          <ul class="trending__list flex-between">
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="./pictures/check.svg" alt="check" />
+              </div>
+              <p>Chicken Fajita</p>
+            </li>
+
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="./pictures/check.svg" alt="check" />
+              </div>
+              <p>Chicken Tikka</p>
+            </li>
+
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="./pictures/check.svg" alt="check" />
+              </div>
+              <p>Shish Tawooq</p>
+            </li>
+
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="./pictures/check.svg" alt="check" />
+              </div>
+              <p>Chicken Teriyaki</p>
+            </li>
+
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="./pictures/check.svg" alt="check" />
+              </div>
+              <p>Grilled Salmon</p>
+            </li>
+
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="./pictures/check.svg" alt="check" />
+              </div>
+              <p>Grilled Beef</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="trending__img flex-center">
+          <img src="./pictures/discover.png" alt="salad" data-aos="fade-left" />
+          <div class="trending__arrow trending__arrow-left">
+            <img src="./pictures/arrow-vertical.svg" alt="arrow vertical" />
+          </div>
+
+          <div class="trending__arrow trending__arrow-bottom">
+            <img src="./pictures/arrow-horizontal.svg" alt="arrow-horizontal" />
+          </div>
+        </div>
+      </section>
+      <div class="trending__discover" data-aos="zoom-in">
+        <p>Discover</p>
+      </div>
+
+      <section class="trending-drink">
+        <div class="trending__img flex-center">
+          <img src="./pictures/juice.png" alt="juice" data-aos="fade-right" />
+
+          <div class="trending__arrow trending__arrow-top">
+            <img src="./pictures/arrow-horizontal.svg" alt="arrow horizontal" />
+          </div>
+
+          <div class="trending__arrow trending__arrow-right">
+            <img src="pictures/arrow-vertical.svg" alt="arrow vertical" />
+          </div>
+        </div>
+        <div class="trending__content" data-aos="fade-left">
+          <p class="subtitle">What’s Trending</p>
+
+          <h3 class="title">Healthy Drinks</h3>
+          <p class="description">
+            Feel the taste of the most delicious healthy drinks here.
+          </p>
+
+          <ul class="trending__list flex-between">
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="pictures/check.svg" alt="check" />
+              </div>
+              <p>Orange</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="pictures/check.svg" alt="check" />
+              </div>
+              <p>BlueBerry</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="pictures/check.svg" alt="check" />
+              </div>
+              <p>PineApple</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="pictures/check.svg" alt="check" />
+              </div>
+              <p>Avocado</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="pictures/check.svg" alt="check" />
+              </div>
+              <p>Acai</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="pictures/check.svg" alt="check" />
+              </div>
+              <p>Matcha</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <!--Subscription-->
+    <section class="subscription flex-center" id="services">
+      <h2 data-aos="flip-down">Get offers straight<br />to your inbox</h2>
+      <p data-aos="fade-up">Sign up for the Green Bites newsletter</p>
+      <div class="subscription__form" data-aos="fade-up">
+        <input type="text" placeholder="Enter your email address" />
+        <button>Get Started</button>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer flex-between">
+      <h3 class="footer__logo"><span>Green</span>Bites</h3>
+
+      <ul class="footer__nav">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+
+      <ul class="footer__social">
+        <li class="flex-center">
+          <img src="./pictures/facebook.svg" alt="facebook" />
+        </li>
+
+        <li class="flex-center">
+          <img src="./pictures/instagram.svg" alt="instagram" />
+        </li>
+
+        <li class="flex-center">
+          <img src="./pictures/twitter.svg" alt="twitter" />
+        </li>
+      </ul>
+    </footer>
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>
